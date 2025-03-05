@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #16161e;
+}
+
+.img_para img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 16px 16px;
+  object-fit: cover;
+}
+.img_para p {
+  color: white;
+}
+
+.img_para {
+  display: flex;
+  align-items: center;
+}
+
+.img_para_buttn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button button {
+  padding: 10px 12px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+}
+section img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img_h_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.img_h_p h2 {
+  font-weight: bold;
+}
+section {
+  background-color: burlywood;
+}
+
+.first_chat p {
+  background-color: #050526;
+  color: white;
+  padding: 11px;
+  border-radius: 11px;
+  margin-bottom: 10px;
+}
+.first_chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px;
+  width: 385px;
+}
+.first_chat button {
+  padding: 14px 145px;
+  background-color: #c91d1d;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  left: 29px;
+  margin-top: 12px;
+}
+
+.second_chat {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.second_chat p {
+  background-color: #df5353;
+  padding: 12px 19px;
+  border-radius: 20px;
+  color: white;
+}
+
+.thrd_chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.thrd_chat p {
+  background-color: #050526;
+  color: white;
+  padding: 11px;
+  border-radius: 11px;
+  margin-bottom: 10px;
+  width: 368px;
+}
+.thrd_chat img {
+  border-radius: 0;
+  width: 99%;
+  padding: 10px;
+  border-radius: 32px;
+}
+.thrd_chat button {
+  padding: 10px 160px;
+  background-color: #c91d1d;
+  border: none;
+  margin-top: 10px;
+  border-radius: 12px;
+  color: white;
+}
+.call_chat p {
+  background-color: #050526;
+  color: white;
+  padding: 11px;
+  border-radius: 11px;
+}
+
+.call_chat {
+  display: flex;
+}
+.call_chat button {
+  padding: 14px 126px;
+  background-color: #4fa94f;
+  border: none;
+  border-radius: 17px;
+  color: white;
+  margin-top: 8px;
+}
+i.fa-solid.fa-phone-volume {
+  padding-right: 10px;
+}
+
+
+
+@media screen and (max-width: 766px) {
+  .button button {
+    padding: 12px 14px;
+  }
+  .container,
+  .container-sm {
+    max-width: 720px !important;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .first_chat {
+    width: 335px;
+  }
+  .first_chat button {
+    padding: 14px 118px;
+  }
+  .thrd_chat p {
+    width: 335px;
+  }
+  .thrd_chat img {
+    width: 97%;
+    padding: 13px;
+  }
+  .thrd_chat button {
+    padding: 13px 143px;
+    background-color: #c91d1d;
+    border: none;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: white;
+  }
+  .call_chat p {
+    width: 335px;
+  }
+  .call_chat button {
+    padding: 15px 111px;
+  }
+  .second_chat p { 
+    padding: 9px 14px;
+    border-radius: 11px;   
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .container,
+  .container-sm {
+    max-width: 412px !important;
+  }
+  .img_para img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .button button {
+    padding: 6px 11px;
+  }
+
+  section img {
+    width: 135px;
+    height: 135px;
+  }
+  .img_h_p h2 {
+    font-size: 21px;
+  }
+  .img_h_p p {
+    font-size: 11px;
+  }
+
+  .first_chat p {
+    padding: 11px;
+    font-size: 18px;
+  }
+  .first_chat button {
+    padding: 14px 142px;
+  }
+  .second_chat {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) {
+
+  .img_para img {
+    width: 80px;
+    height: 80px;
+  }
+  .button button {
+    padding: 4px 5px;
+  }
+  .img_para p {   
+    margin: 0 0 0 -8px;
+    font-size: 14px;
+  }
+  section img {
+    width: 115px;
+    height: 115px;
+}
+.img_h_p h2 {
+  font-size: 15px;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+.img_h_p p {
+  font-size: 9px;
+}
+.first_chat {
+  width: 185px;
+}
+.first_chat button {   
+   position: unset;
+   border-radius: 20px;
+
+}
+
+.first_chat button {
+  padding: 8px 84px;
+}
+.first_chat p { 
+  font-size: 16px;
+}
+.second_chat p {
+  padding: 7px 11px;
+  border-radius: 13px;
+}
+
+
+.thrd_chat img {
+  width: 100%;
+  border-radius: 17px;
+}
+.thrd_chat p {
+  width: 185px;
+ }
+.thrd_chat button {
+  padding: 8px 70px;
+}
+.call_chat p {
+  width: 185px;
+}
+.call_chat button {
+  padding: 8px 36px;
+}
+
+}
+
